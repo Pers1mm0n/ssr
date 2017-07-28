@@ -2,10 +2,10 @@ FROM alpine:3.6
 
 ENV SERVER_ADDR     0.0.0.0
 ENV SERVER_PORT     8129
-ENV PASSWORD        Pers1mm0n
-ENV METHOD          aes-256-cfb
+ENV PASSWORD        car-advice-persimmon-chocolate-epideictic
+ENV METHOD          chacha20
 ENV PROTOCOL        auth_aes128_md5
-ENV PROTOCOLPARAM   ''
+ENV PROTOCOLPARAM   'www.baidu.com,www.whu.edu.cn'
 ENV OBFS            tls1.2_ticket_auth
 ENV TIMEOUT         300
 ENV DNS_ADDR        8.8.8.8
